@@ -1,0 +1,8 @@
+[workspace]
+members = [
+  "jankloada-lib",
+  "jankloada-cli",
+  "jankloada",
+]
+
+resolver = "2"
