@@ -1,9 +1,13 @@
 [workspace]
 members = [
+  "jankloada",
   "jankloada-lib",
   "jankloada-cli",
-  "jankloada",
 ]
+default-members = [
+  "jankloada",
+  "jankloada-lib",
+ ]
 
 resolver = "2"
 
