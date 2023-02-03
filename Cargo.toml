@@ -12,3 +12,6 @@ resolver = "2"
 inherits = "release"
 debug = false
 split-debuginfo = "packed"
+
+[workspace.metadata.release]
+shared-version = true
