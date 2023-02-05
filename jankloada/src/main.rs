@@ -197,9 +197,9 @@ impl Jankloada {
             all_mods
                 .iter()
                 // Hack to only show twwh3
-                .filter(|m| m.game == "warhammer3")
                 .enumerate()
-                .map(|(i, x)| view_mod_entry(i, x))
+                .filter(|(_, m)| m.game == "warhammer3")
+                .map(|(i, m)| view_mod_entry(i, m))
                 .collect::<Vec<_>>(),
         )
         .padding(20)
