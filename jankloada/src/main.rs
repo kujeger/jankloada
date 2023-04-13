@@ -220,12 +220,9 @@ impl Jankloada {
         let load_profiles_button = button("WOT")
             .on_press(Message::ListProfiles)
             .style(theme::Button::Positive);
-        let profile_name_input = text_input(
-            "Ya needs ta NAME it!",
-            &self.profile_name,
-            Message::NameProfile,
-        )
-        .width(Length::Fill);
+        let profile_name_input = text_input("Ya needs ta NAME it!", &self.profile_name)
+            .on_input(Message::NameProfile)
+            .width(Length::Fill);
         let profile_list_rows = self
             .profile_list
             .iter()

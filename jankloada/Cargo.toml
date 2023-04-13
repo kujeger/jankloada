@@ -13,7 +13,7 @@ publish = false
 [dependencies]
 anyhow = "1.0.68"
 jankloada-lib = { path = "../jankloada-lib" }
-iced = "0.7.0"
+iced = "0.9.0"
 
 [package.metadata.release]
 shared-version = true
