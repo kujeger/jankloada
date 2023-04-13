@@ -11,9 +11,9 @@ publish = false
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-anyhow = "1.0.68"
+anyhow = "1.0.70"
 jankloada-lib = { path = "../jankloada-lib" }
-serde_json = "1.0.91"
+serde_json = "1.0.96"
 
 [package.metadata.release]
 release = false
